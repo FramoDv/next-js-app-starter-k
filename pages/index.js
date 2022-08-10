@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from "next/link";
 
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
         <h1 >
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+          <Link href="/login">Login</Link>
+          <Link href="/profile">Profile ( protected )</Link>
         <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
       </main>
     </div>
