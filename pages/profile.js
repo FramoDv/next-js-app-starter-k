@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 const Profile = () => {
     return (
@@ -11,7 +9,7 @@ const Profile = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className={styles.main}>
+            <main>
                 <h1>Profile</h1>
             </main>
         </div>
