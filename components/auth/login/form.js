@@ -5,17 +5,17 @@ import {
     HideIcon,
     LockIcon,
     MailIcon,
-} from '../../theme/icons'
+} from '../../../theme/icons'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { useDispatch } from 'react-redux'
 
 import { unwrapResult } from '@reduxjs/toolkit'
 import { LOGIN_MODEL, validationSchema } from './loginModel'
-import {login} from "../../store/slices/user";
-import Input from "../../components/Input";
-import Button from "../../components/Button";
-import {handleApiError} from "../../utilities/helpers";
+import {login} from "../../../store/slices/user";
+import Input from "../../ui-commons/Input";
+import Button from "../../ui-commons/Button";
+import {handleApiError} from "../../../utilities/helpers";
 
 const useStyles = createUseStyles((theme) => ({
     root: {

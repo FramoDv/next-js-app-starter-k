@@ -1,9 +1,9 @@
-import { setAlertMessage } from '../store/slices/app'
+import {setAlertMessage} from '../store/slices/app'
 import store from '../store'
-import {app} from './constants'
 import dayjs from 'dayjs'
 import utc from "dayjs/plugin/utc"
 import timezone from "dayjs/plugin/timezone"
+import {FAILURE} from "./constants";
 
 const transformCheckboxNumberValue = (e) => {
     const output = parseInt(e.target.value, 10)
@@ -12,7 +12,7 @@ const transformCheckboxNumberValue = (e) => {
 
 export const dispatchErrorMessage = (message) => {
     store.dispatch(
-        setAlertMessage({ message, visible: true, variant: app.FAILURE })
+        setAlertMessage({ message, visible: true, variant: FAILURE })
     )
 }
 

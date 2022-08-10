@@ -1,5 +1,5 @@
 import { createUseStyles } from 'react-jss'
-import LoginForm from './form'
+import LoginForm from '../../components/auth/login/form'
 import Head from "next/head";
 import useWindowSize from "../../utilities/hooks/useWindowSize";
 

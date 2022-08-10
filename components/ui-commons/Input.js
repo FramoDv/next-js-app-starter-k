@@ -2,7 +2,7 @@ import { forwardRef } from "react"
 import { createUseStyles } from "react-jss"
 import * as PropTypes from "prop-types"
 import cx from "classnames"
-import {AlertIconBanner, DoneIcon} from "../theme/icons"
+import {AlertIconBanner, DoneIcon} from "../../theme/icons"
 
 const useStyles = createUseStyles((theme) => ({
     root: {
