@@ -11,7 +11,7 @@ import utils from "./utils"
 export const getAppTheme = ({ name = 'light', direction = 'ltr' } = {}) => {
     const palette = mainPalette[name]
     const spacing = 8
-    const transition = "ease-in-out 400ms"
+    const transition = "none"
 
     const zIndex = {
         modal: 1300,

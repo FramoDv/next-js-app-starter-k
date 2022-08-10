@@ -44,7 +44,7 @@ const theme = () => {
     }
 
     const clickable = {
-        transition: 'ease-in-out 400ms',
+        //transition: 'ease-in-out 400ms',
         cursor: 'pointer',
         '&:hover': {
             opacity: 0.8,
@@ -80,7 +80,7 @@ const theme = () => {
         borderBottomWidth: 1,
         borderBottomStyle: 'solid',
         borderBottomColor: colors.inputGrey,
-        transition: 'ease-in-out 300ms',
+        //transition: 'ease-in-out 300ms',
         background: 'transparent',
         '&:-webkit-autofill': {
             WebkitBackgroundClip: 'text'
